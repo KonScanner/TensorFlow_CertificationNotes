@@ -46,11 +46,11 @@ http://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=spiral&re
 - dendrites == input layer
 - cell body == neuron
 - action potential through axon == output
-  - <img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}w_i \cdot x_i = w\cdot x + b > 0  " /> where _b_ (-ve) is the threshold then output 1 in the single layer perceptron
+  - <img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}w_ix_i=wx+b>0"/> where _b_ (-ve) is the threshold then output 1 in the single layer perceptron
   - In this case the activation function is a _sigmoid_:
-    - <img src="https://latex.codecogs.com/gif.latex?O(z) = \frac{1}{1+\exp{(-z)}}" />
+    - <img src="https://latex.codecogs.com/gif.latex?O(z)=\frac{1}{1+\exp{(-z)}}"/>
     - There are also:
-      - <img src="https://latex.codecogs.com/gif.latex?O(z)= \tanh{z}" />
-      - <img src="https://latex.codecogs.com/gif.latex?O(z)= \max{(0,z)}" />
+      - <img src="https://latex.codecogs.com/gif.latex?O(z)=\tanh{z}"/>
+      - <img src="https://latex.codecogs.com/gif.latex?O(z)=\max{(0,z)}"/>
     - Non linear nature of functions help deep learning Networks approximate any kind of problem.
       - RelU is the most efficient in compute (easier deriv.)
