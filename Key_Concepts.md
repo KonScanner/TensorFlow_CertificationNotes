@@ -2,8 +2,8 @@
 
 - **Parameters**:
   - weight: _w_
-  - bias _b_
-  - activation _a_
+  - bias: _b_
+  - activation: _a_
 - **Hyperparameters**:
   - Learning Rate : _η_
     - Too small, takes a very long time to converge to global equilibrium
