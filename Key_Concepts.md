@@ -138,6 +138,7 @@
       - Shifting the image by a few pixels (**translation**).
       - Applying **random noise** to the image.
       - **Rotating** the image slightly.
+    - https://keras.io/api/preprocessing/image/
 
 ## **Initialization steps and training**:
 
