@@ -1,4 +1,4 @@
-.vscode/
-model_output/
-logs/
-tensorboard_init.bat
+Oreiley Course/.vscode/
+Oreiley Course/model_output/
+Oreiley Course/logs/
+Oreiley Course/tensorboard_init.bat
