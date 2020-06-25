@@ -181,6 +181,13 @@
 * Early stoppibng for epoch hyper params:
   https://keras.io/api/callbacks/early_stopping/
 
+### Hyper parameter optimizers:
+
+- https://github.com/JasperSnoek/spearmint
+- https://github.com/hyperopt/hyperopt
+- https://pypi.org/project/kopt/
+- https://github.com/autonomio/talos
+
 ## Other tips:
 
 - When validating a neural network model that was trained using _dropout_\*, or when making real-world inferences with such a network, we must take an _extra step_ first. During validation or inference, we would like to leverage the power of the full network, that is, its total complement of neurons.
