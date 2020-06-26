@@ -168,6 +168,7 @@
 ## **Convolutional Neural Networks**:
 
     - https://cs231n.github.io/convolutional-networks/
+    - https://lodev.org/cgtutor/filtering.html
 
 ## **Initialization steps and training**:
 
